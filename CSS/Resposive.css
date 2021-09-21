@@ -1,0 +1,84 @@
+/* Start Header responsive */
+    @media (max-width:575px){
+        .container{
+            width: 90% !important;
+        }
+        header{
+            background-image: url(../Images/bg-header-mobile.png);
+            background-repeat: no-repeat;
+        }
+        header .header-text h1{
+            font-size: 25px;
+        }
+        button{
+            margin-bottom: 20px;
+            width:80%;
+        }
+        /* End Header responsive */
+
+        /* Start features Responsive */
+            .features .featuer-1 .header p{
+                width: unset;
+                padding: 0 25px;
+            }
+            .featuer-1 .feature-body .image{
+                width: 100%;
+            }
+            .featuer-1 .feature-body .image img {
+                height: unset;
+                position: unset;
+                transform: scale( 1 , 1);
+            }
+            .featuer-1 .feature-body{
+                display: unset !important;
+            }
+            .featuer-1 .feature-body .options{
+                width: 100%;
+                margin: auto;
+                text-align: center !important;
+                margin-top: 50px;
+            }
+            .features .featuer-2 .header p ,
+            .features .featuer-3 .header p {
+                width: unset;
+                padding: 0 25px;
+            }
+            .f-card {
+                width: 100%;
+            }
+        /* StaEnd features Responsive */
+
+        /* Start Logos Responsive */
+        .logos .col{
+            flex: unset;
+        }
+        .logos .logo{
+            width: 100% !important;
+            margin-bottom: 50px;
+        }
+        /* End Logos Responsive */
+
+        /* Start Download Responsive */
+        .download p{
+            padding: 0 25px;
+        }
+        /* End Download Responsive */
+
+        /* Start Footer Responsive */
+        footer .row >div{
+            width: 100%;
+            text-align: center;
+        }
+        footer .row .links {
+            flex-direction: column;
+            margin: 50px 0;
+        }
+        footer .icons{
+            justify-content: center;
+        }
+        /* End Footer Responsive */
+
+
+    }
+
+
